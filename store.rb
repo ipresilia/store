@@ -4,8 +4,11 @@ puts "*" * 40
 puts "\n"
 end
 
+# Shopping Cart
 shopping_cart = []
 
+
+# List of Products
 products = [
   { reference_number: 123, name: "Macbook Air", price: 1200 },
   { reference_number: 124, name: "Macbook Pro", price: 2000 },
@@ -16,7 +19,7 @@ products = [
 ]
 
 
-# Welcoming user
+# Welcome user
 print_divider
 puts "Welcome to Apple Fan Boy!"
 print_divider
