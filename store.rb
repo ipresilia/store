@@ -43,7 +43,7 @@ end
 # Add Selection to cart
 def add_to_cart(reference_number)
   product = look_for_product(reference_number)
-  if product != nil
+  if product != nil && product == [:reference_number]
     @shopping_cart << product
     puts "Congrats. The following has been added to the cart successfully: '#{product[:name]}' costing €#{product[:price]}"
   else
